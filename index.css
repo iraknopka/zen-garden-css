@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Annie Use Your Telescope');
+body {
+  max-width:1000px;
+  margin:0 auto;
+  font-family:'Annie Use Your Telescope';
+  font-size:1.1em;
+  line-height:1.6em;
+  
+}
+
+header {
+  background: url(img/zen.jpg) no-repeat;
+  background-position:center center;
+  background-size:cover;
+  height:250px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  padding-left:5%;
+    
+}
+
+header h1,h2 {
+  font-size:2rem;
+  color:#2F4F4F
+  
+}
+div .summary~.requiremets{
+  display:flex;
+}
+
+aside {
+  display:block;
+  background:#FFE4C4;
+  min-width:40%;
+  
+}
+
+footer{
+  text-align:center;
+}
+
+@media screen and (max-width:720 px) {
+  
+  header{
+    height:100px;
+  }
+  
+  header h1,h2{
+    font-size:1em;
+  }
+  
+  aside{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  div .summary~.requiremets{
+    flex-wrap:wrap;
+  }
+
+
+
+
